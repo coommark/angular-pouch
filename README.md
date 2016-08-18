@@ -28,6 +28,8 @@ To test the various answers, use the **Navigation Menu** at the top of the app
 - Run the commands below:
 
 ```sh
+$ git clone https://github.com/coommark/angular-pouch.git
+$ cd angular-pouch
 $ npm install
 $ bower install
 $ node ./bin/www
