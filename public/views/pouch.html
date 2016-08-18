@@ -1,0 +1,26 @@
+<div class="jumbotron text-center">
+    <h1>PouchDB UI</h1>
+
+    <form class="form-horizontal" role="form">
+      <div class="form-group">
+        <div class="col-sm-12">
+          <input type="text" class="form-control" id="id" ng-model="id">
+        </div>
+      </div>
+
+      <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-10">
+          <button type="submit" ng-click="post()" class="btn btn-default btn-lg">Click to PUT</button>
+        </div>
+      </div>
+    </form>
+
+    <h2>Loaded from PouchDB</h2>
+    <table class="table table-striped">
+      <tbody>
+        <tr ng-repeat="doc in docs">
+          <td>{{doc.id}}</td>
+        </tr>
+      </tbody>
+    </table>
+</div>

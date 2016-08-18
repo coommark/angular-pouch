@@ -1,0 +1,136 @@
+<div class="jumbotron text-center">
+    <h1>Other answers (Javascript)</h1>
+</div>
+<blockquote>
+  <p><strong>1. </strong>Discuss an algorithm to traverse a tree, depth first.</p>
+  <footer>DEPTH FIRST TREE TRAVERSAL</footer>
+</blockquote>
+
+<blockquote>
+  <p><strong>2. </strong>Implement a function with signature find_chars(string1, string2) that takes two strings and
+  returns a string that contains only the characters found in string1 and string two in the order
+  that they are found in string1. Implement a version of order N*N and one of order N.</p>
+  <footer>CHARACTERS IN STRINGS</footer>
+</blockquote>
+<h3>Answer:</h3>
+<form class="form-horizontal" role="form">
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="stringA">String A:</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" id="stringA" ng-model="stringA">
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="stringB">string B:</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" id="stringB" ng-model="stringB">
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="resultString">Result:</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" id="resultString" ng-model="resultString">
+    </div>
+  </div>
+
+  <div class="form-group">
+    <div class="col-sm-12">
+      <button type="submit" ng-click="stringChars()" class="btn btn-default btn-lg">Find Common</button>
+    </div>
+  </div>
+</form>
+<blockquote>
+  <p><strong>3. </strong>Write a function that takes as input a sorted array and modifies the array to compact it,
+  removing duplicates.
+  Notes: The input array might be very large.
+  For example:
+  <ul>
+    <li>input array = [1, 3, 7, 7, 8, 9, 9, 9, 10]</li>
+    <li>transformed array = [1, 3, 7, 8, 9, 10]</li>
+  </ul>
+    </p>
+  <footer>ARRAY COMPACTION</footer>
+</blockquote>
+<h3>Answer:</h3>
+<form class="form-horizontal" role="form">
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="arrToCompact">Source array:</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" id="arrToCompact" ng-model="arrToCompact">
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="arr">Compact array:</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" id="compacted" ng-model="compacted">
+    </div>
+  </div>
+
+  <div class="form-group">
+    <div class="col-sm-12">
+      <button type="submit" ng-click="compact()" class="btn btn-default btn-lg">Compact Array</button>
+    </div>
+  </div>
+</form>
+
+<blockquote>
+  <p><strong>4. </strong>Write a function that takes an array of integers and returns that array rotated by N positions.
+  For example, if N=2, given the input array [1, 2, 3, 4, 5, 6] the function should return [5, 6, 1,
+  2, 3, 4]</p>
+  <footer>ROTATING AN ARRAY</footer>
+</blockquote>
+<h3>Answer:</h3>
+<form class="form-horizontal" role="form">
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="arrToRotate">Array to Rotate:</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" id="arrToRotate" ng-model="arrToRotate">
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="rotateN">Rotate (N):</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" id="rotateN" ng-model="rotateN">
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="rotatedResult">Result:</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" id="rotatedResult" ng-model="rotatedResult">
+    </div>
+  </div>
+
+  <div class="form-group">
+    <div class="col-sm-12">
+      <button type="submit" ng-click="rotateArr()" class="btn btn-default btn-lg">Rotate Array</button>
+    </div>
+  </div>
+</form>
+<blockquote>
+  <p><strong>5. </strong>The least common multiple of a set of integers is the smallest positive integer that is a
+  multiple of all of the integers in the set.
+  Write a function that takes an array of integers and efficiently calculates and returns the
+  LCM.</p>
+  <footer>LEAST COMMON MULTIPLE</footer>
+</blockquote>
+<h3>Answer:</h3>
+<form class="form-horizontal" role="form">
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="arrForLcm">Array to Rotate:</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" id="arrForLcm" ng-model="arrForLcm">
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="arr">Result:</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" id="arrForLcmResult" ng-model="arrForLcmResult">
+    </div>
+  </div>
+
+  <div class="form-group">
+    <div class="col-sm-12">
+      <button type="submit" ng-click="findLcm()" class="btn btn-default btn-lg">Find LCM</button>
+    </div>
+  </div>
+</form>

@@ -1,0 +1,15 @@
+{
+    "name": "angular-pouch",
+    "version": "1.0.0",
+    "dependencies": {
+        "bootstrap": "latest",
+        "font-awesome": "latest",
+        "animate.css": "latest",
+        "angular": "latest",
+        "angular-mocks": "latest",
+        "angular-route": "latest",
+        "pouchdb": "latest",
+        "angular-pouchdb": "latest",
+        "angular-ui-router": "latest"
+    }
+}
