@@ -8,7 +8,7 @@ An Angular and pouchDB sample project which uses:
 - [Node.js](https://nodejs.org/)
 - [Express](https://expressjs.com/)
 
-## See and Answers to eHealth Questions
+## See Answers to eHealth Questions
  
  - JavaScript was used to answer the questions
  - Web UI has been created to test the answers
