@@ -35,6 +35,8 @@ $ bower install
 $ node ./bin/www
 ```
 
+Open Google Chrome and go to http://localhost:3000
+
 ## Tests
 
 To run the pouchDB **PUT** request unit tests, simply run:
