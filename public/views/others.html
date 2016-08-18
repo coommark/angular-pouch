@@ -5,7 +5,79 @@
   <p><strong>1. </strong>Discuss an algorithm to traverse a tree, depth first.</p>
   <footer>DEPTH FIRST TREE TRAVERSAL</footer>
 </blockquote>
+<h3>Answer:</h3>
+<p>
+Tree traversal is the process of systematically walking through the tree to visit all the nodes.
+</p>
+<p>
+Take the image below as our tree, the three (3) methods of Depth-First Traversal we could use to traverse this tree are:
+<img src="https://s3.postimg.org/hv738oyj7/tree.png"/>
+</p>
+<ol>
 
+<li>
+<p>
+Preorder
+Algorithm:
+Visit the root first (print).
+Do a left-to-right preorder traversal of each subtree.<br />
+Pseudo-Code:
+<p>
+<pre>
+Preorder(t)
+{
+	if t == NULL return
+	visit(t)
+	Preorder(t->left)
+	Preorder(t->right)
+}
+</pre>
+</p>
+Example:
+A,B,C,D,E,F,G,H,I
+</p>
+</li>
+<li>
+Inorder (only makes sense for binary trees)
+Algorithm:
+Do an inorder traversal of the left subtree.
+Visit the root (print).
+Do an inorder traversal of the right subtree.<br />
+Pseudo-Code:
+<pre>
+Inorder (t)
+{
+	if t == NULL return
+	Inorder(t->left)
+	visit(t)
+	Inorder(t->right)
+}
+</pre>
+Example:
+B,C,A,F,E,G,D,I,H
+</p>
+</li>
+<li>
+<p>
+Postorder
+Algorithm:
+Do a left-to-right postorder traversal of each subtree.
+Visit the root (print).<br />
+Pseudo-Code:
+<pre>
+Postorder(t)
+{
+	if t == NULL return
+	Postorder(t->left)
+	Postorder(t->right)
+	visit(t)
+}
+</pre>
+Example:
+C,B,F,G,E,I,H,D,A
+</p>
+</li>
+</ol>
 <blockquote>
   <p><strong>2. </strong>Implement a function with signature find_chars(string1, string2) that takes two strings and
   returns a string that contains only the characters found in string1 and string two in the order
