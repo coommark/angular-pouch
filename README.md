@@ -2,8 +2,11 @@
 
 An Angular and pouchDB sample project which uses:
 
-- angular-pouch wrapper 
-- karma and jasmine (unit testing)
+- [angular-pouchdb](https://github.com/angular-pouchdb/angular-pouchdb) wrapper 
+- [karma](https://github.com/karma-runner/karma) for unit testing
+- [Jasmine](https://github.com/jasmine/jasmine)
+- [Node.js](https://nodejs.org/)
+- [Express](https://expressjs.com/)
 
 ## See and Answers to eHealth Questions
  
@@ -15,8 +18,8 @@ To test the various answers, use the **Navigation Menu** at the top of the app
  - Question 6. Click Pouch Test menu item or go to http://localhost:3000/#/pouch 
 
 ## Requirements
-- Requires [Node.js](https://nodejs.org/) v4+ to run.
-- Requires Express
+- Requires [Node.js](https://nodejs.org/) v4.4.7+ to run.
+- Requires [Express](https://expressjs.com/)
 
 
 ## Install the dependencies and start the server.
@@ -31,6 +34,8 @@ $ node ./bin/www
 ```
 
 ## Tests
+
+To run the pouchDB **PUT** request unit tests, simply run:
 
 ```sh
 $ karma start karma.conf.js
