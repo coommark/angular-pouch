@@ -16,11 +16,13 @@ To test the various answers, use the **Navigation Menu** at the top of the app
 
 ## Requirements
 - Requires [Node.js](https://nodejs.org/) v4+ to run.
+- Requires Express
 
 
 ## Install the dependencies and start the server.
 
 - Clone [this repository](https://github.com/coommark/angular-pouch). (Or [download the zip](https://github.com/coommark/angular-pouch/archive/master.zip) download the zip)
+- Run the commands below:
 
 ```sh
 $ npm install
