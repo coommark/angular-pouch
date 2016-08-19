@@ -25,13 +25,13 @@ angular.module('OthersCtrl', []).controller('OthersController', function($scope)
   }
 
   //Array compacting
-  $scope.arrToCompact = [1, 3, 7, 7, 8, 9, 9, 9, 10,];
+  $scope.arrToCompact = [1, 3, 7, 7, 8, 9, 9, 9, 10];
   $scope.compacted = [];
 
   compactArray =  function(arr) {
     var result = [];
     var r = [];
-    var len = arr.length - 1;
+    var len = arr.length;
     if (len >= 0) {
         for (var i = 0;i < len; i++) {
             if (arr[i] !== arr[i+1]) {
